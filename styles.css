@@ -1,0 +1,41 @@
+*:focus {
+    outline: none;
+}
+
+#pass {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#destinationEntry {
+    /* display: block; */
+    position: absolute;
+    padding-right: 195px;
+    padding-bottom: 5px;
+    left: 28.5%;
+    right: 0;
+    bottom: 29%;
+    margin: auto;
+}
+
+#destinationEntry:focus {
+    border:3px solid #42B804;
+    box-shadow: 0 0 5px blue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 400px;
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+}
+
+
+body {
+    background-image: url('../IPA-Game/footer_lodyas.png');
+    background-size: cover;
+}
